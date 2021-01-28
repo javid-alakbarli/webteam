@@ -10,7 +10,7 @@ function final()
     
     var day = mydate.getDay();
     var month = mydate.getMonth();
-    var dayar = new Array("Sunday,","Monday,", "Tuesday,", "Wednesday,", "Thursday,", "Friday,", "Saturday,");
+    var dayar = new Array("Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
     var monthar = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct","Nov", "Dec");
 
     var currentTime = new Date();
@@ -43,8 +43,8 @@ function final()
 
     var myClock = document.getElementById("clock");
 
-    myClock.textContent = "" +dayar[day]+ " " +monthar[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
-    myClock.innerText = "" +dayar[day]+ " " +monthar[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
+    myClock.textContent = "" +dayar[day]+ "|" +monthar[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
+    myClock.innerText = "" +dayar[day]+  " " + "|" +  " " +monthar[month]+ " " +year+ " | " +h+ ":" +m+ ":" +s;
 
     setTimeout("final()", 1000);
 }
