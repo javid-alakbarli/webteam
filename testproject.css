@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4rem; 
+    font-family: sans-serif;
+    line-height: 30vh;
+}
+body {
+    background-color: black;
+}
+span{
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+span.fade{
+    opacity: 1;
+    color: white;
+}
+.fancy{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -340px;
+}
+.tprojects {
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5000ca;
+    float: left;
+    margin-top: 100px;
+}
+.project {
+
+   float: right;
+}
+.divbg {
+    background-color: #5000ca;
+}
+.teampr1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.teamprr1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: left;
+}
+.hocpic {
+    float: right;
+    background-color: #5000ca;
+    margin-top: -330px;
+}
+.hocpic1 {
+    float: right;
+    background-color: #5000ca;
+    margin-top: -850px;
+}
+.hocpic2 {
+    float: right;
+    background-color: #5000ca;
+    margin-top: -430px;
+}
+.teampr2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #5000ca;
+    float: right;
+    margin-top: -410px;
+}
+.teamprr2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5000ca;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: right;
+    margin-top: -390px;
+}
+.teampr3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #5000ca;
+}
+.teamprr3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5000ca;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: left;
+}
+.web1 {
+    float: right;
+    color: #5000ca;
+    background-color: black;
+}
+.webani {
+    float: left;
+    margin-top: -360px;
+}
+.teampr4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+
+}
+.teamprr4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: left;
+}
+.robo1 {
+    float: right;
+    margin-top: -850px;
+}
+.robo2 {
+    float: right;
+    margin-top: -580px;
+}
+.robo3 {
+    float: right;
+    margin-top: -280px;
+}
+.Team {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.Profiles {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -160px;
+    margin-left: 460px;
+}
+.Reference {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -160px;
+    margin-left: 1240px;
+}
+.link {
+    color: white;
+}
+.Home {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -160px;
+    margin-left: 860px;
+    letter-spacing: 0.2px;
+}
+.Team,
+.Profiles,
+.Home,
+.Reference {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.Team:hover,
+.Profiles:hover,
+.Home:hover,
+.Reference:hover {
+    color: black;
+    background: #5000ca;
+    transition-delay: 0.2s;
+}
