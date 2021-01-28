@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+h1{
+    font-size: 4rem; 
+    font-family: sans-serif;
+    line-height: 30vh;
+}
+
+span{
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+span.fade{
+    opacity: 1;
+    color: white;
+}
+.fancy{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -340px;
+}
+.teamname1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    
+}
+.teamname2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: right;
+    margin-top: -260px;
+}
+.teaminfo1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+}
+.teaminfo2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: right;
+    margin-top: -240px;
+}
+.tmembers {
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #BB9847;
+}
+.teamcolor {
+    background-color:  #BB9847;
+}
+.teamcolor1 {
+    background-color: #CBAB58;
+}
+.teamname11 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    
+}
+.teamname12 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: right;
+    margin-top: -190px;
+}
+.teaminfo11 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+   
+}
+.teaminfo12 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 600px;
+    letter-spacing: 1.5px;
+    float: right;
+    margin-top: -160px;
+}
+.button1 {
+    position: relative;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .button2 {
+    position: relative;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+    margin-top: -100px;
+  }
+.Profiles {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -60px;
+    margin-left: 40px;
+}
+.Project {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -60px;
+    margin-left: 460px;
+}
+.Reference {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -60px;
+    margin-left: 1240px;
+}
+.link {
+    color: white;
+}
+.Home {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin-top: -60px;
+    margin-left: 860px;
+    letter-spacing: 0.2px;
+}
+.Profiles,
+.Project,
+.Home,
+.Reference {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.Profiles:hover,
+.Project:hover,
+.Home:hover,
+.Reference:hover {
+    color: black;
+    background: #BB9847;
+    transition-delay: 0.2s;
+}
